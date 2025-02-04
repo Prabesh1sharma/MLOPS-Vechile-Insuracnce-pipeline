@@ -1,0 +1,11 @@
+[project]
+name = "src"
+version = "0.0.1"
+description = "A vechile insurance Mlops project for productionizing models"
+authors = [{name = "Prabesh", email = "sharmaprabesh2027@gmail.com"}]
+
+[tool.setuptools]
+packages = {find={}}
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
