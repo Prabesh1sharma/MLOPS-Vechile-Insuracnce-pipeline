@@ -17,7 +17,7 @@ class TargetValueMapping:
         return dict(zip(mapping_response.values(),mapping_response.keys()))
     
 
-class Mymodel:
+class MyModel:
     def __init__(self, preprocessing_object: Pipeline, trained_model_object: object):
         """
         :param preprocessing_object: Input Object of preprocesser
